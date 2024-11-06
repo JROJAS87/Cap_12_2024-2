@@ -1,0 +1,19 @@
+// 12.13 (Programa Bancario Polimórfico Usando Jerarquía de Cuentas)
+
+/*
+Desarrolla un programa bancario polimórfico utilizando la jerarquía de Account creada en el Ejercicio 11.10.
+
+A continuación se detallan los pasos a seguir:
+
+1. Creación de un vector de punteros a Account
+   Crea un vector que almacene punteros a objetos de las clases SavingsAccount y CheckingAccount.
+
+2. Procesamiento de cada cuenta de manera polimórfica
+   Para cada cuenta en el vector, permite al usuario especificar un monto de dinero para retirar de la cuenta usando la función miembro debit y un monto para depositar usando la función miembro credit.
+
+3. Determinación del tipo de cuenta
+   Identifica el tipo de cada cuenta. Si la cuenta es de tipo SavingsAccount, calcula la cantidad de interés acumulado usando la función miembro calculateInterest y añade el interés al saldo de la cuenta mediante la función credit.
+
+4. Muestra del saldo actualizado
+   Después de procesar cada cuenta, muestra el saldo actualizado invocando la función miembro getBalance de la clase base Account.
+*/

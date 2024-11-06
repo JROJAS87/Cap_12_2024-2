@@ -1,0 +1,23 @@
+// 12.11 (Modificación del sistema de nómina)
+
+/*
+Modifica el sistema de nómina de las Figuras 12.9–12.17 para incluir un miembro de datos privado birthDate en la clase Employee. Usa la clase Date de las Figuras 10.6–10.7 para representar el cumpleaños de un empleado. Supón que la nómina se procesa una vez al mes.
+
+A continuación se detallan los pasos a seguir:
+
+1. Modificación de la clase Employee
+   Agrega un miembro de datos privado birthDate, que almacena la fecha de nacimiento del empleado utilizando la clase Date.
+
+2. Creación de un vector de punteros a Empleado
+   Crea un vector que almacene punteros a los distintos objetos de empleado.
+
+3. Cálculo de la nómina mensual
+   En un bucle, calcula la nómina para cada empleado de manera polimórfica.
+   Si el mes actual coincide con el mes de cumpleaños del empleado, añade un bono de $100.00 al monto de la nómina de esa persona.
+
+4. Implementación en la función main
+   Inicializa el vector de punteros de tipo Empleado.
+   Para cada empleado en el vector:
+   - Calcula su nómina mediante el método polimórfico correspondiente.
+   - Si es el mes de cumpleaños, añade el bono y muestra los detalles correspondientes de cada empleado.
+*/

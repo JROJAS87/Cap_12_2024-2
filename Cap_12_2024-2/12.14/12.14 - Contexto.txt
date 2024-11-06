@@ -1,0 +1,28 @@
+// 12.14 (Modificación del sistema de nómina)
+
+/*
+Modifica el sistema de nómina de las Figuras 12.9–12.17 para incluir dos nuevas subclases de Empleado: Trabajador por pieza y Trabajador por hora.  A continuación se detallan las características de cada subclase y los pasos a seguir:
+
+1. Trabajador por pieza (PieceWorker)
+	Descripción: Representa a un empleado cuyo pago se basa en el número de piezas producidas.
+	Datos privados:
+	wage: Almacena el pago por cada pieza producida.
+	pieces: Almacena el número total de piezas producidas por el empleado.
+	Método earnings: Calcula los ingresos multiplicando pieces por wage (número de piezas producidas x pago por pieza).
+
+2. Trabajador por hora (HourlyWorker)
+	Descripción: Representa a un empleado cuyo pago se basa en un salario por hora y en las horas trabajadas.
+	Datos privados:
+	wage: Almacena el pago por hora.
+	hours: Almacena el número total de horas trabajadas.
+	Método earnings:Calcula los ingresos multiplicando hours por wage (horas trabajadas x salario por hora).
+	Si hours es mayor a 40, las horas adicionales se pagan como horas extras, a una tarifa de 1.5 veces el salario por hora.
+
+3. Implementación en la función main
+	Crea un vector de punteros de tipo Empleado.
+	Añade al vector un puntero a un objeto de cada una de las nuevas clases (Trabajador por pieza y Trabajador por hora).
+	Para cada Empleado en el vector:
+	Muestra su representación en forma de cadena (string).
+	Muestra sus ingresos calculados mediante el método earnings.
+*/
+

@@ -1,0 +1,22 @@
+// 12.12 (Jerarquía de Herencia de Paquetes)
+
+/*
+Usa la jerarquía de herencia de Package creada en el Ejercicio 11.9 para crear un programa que muestre la información de las direcciones y calcule los costos de envío de varios paquetes.
+
+A continuación se detallan los pasos a seguir:
+
+1. Creación de un vector de punteros a Package
+   Crea un vector que almacene punteros a objetos de las clases TwoDayPackage y OvernightPackage.
+
+2. Procesamiento de los paquetes de manera polimórfica
+   Recorre el vector y procesa cada paquete de manera polimórfica.
+
+3. Obtención y muestra de la información de direcciones
+   Para cada paquete, invoca las funciones get para obtener la información de la dirección del remitente y del destinatario, y luego muestra ambas direcciones tal como aparecerían en las etiquetas de envío.
+
+4. Cálculo y muestra del costo de envío
+   Llama a la función miembro calculateCost de cada paquete y muestra el resultado.
+
+5. Cálculo del costo total de envío
+   Mantén un seguimiento del costo total de envío de todos los paquetes en el vector y muestra este total al finalizar el bucle.
+*/
